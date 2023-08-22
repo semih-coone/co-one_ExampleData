@@ -1,0 +1,1 @@
+{"useCaseTitle": "Customer Satisfaction", "useCaseDescription": "Desrciption1", "completionSyntax": " This 1stylish small green handbag will add a unique touch to your look, without costing you a fortune.", "promptSyntax": "Item=handbag1, Color=army_green, price=$99, size=S->", "categories": ["creditCard", "banking", "insurance", "retail", "telecom", "travel"]}
