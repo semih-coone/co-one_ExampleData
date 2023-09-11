@@ -1,0 +1,37 @@
+{
+    "classTags": [
+        {
+        "label": "Arrow",
+        "options": [
+            {
+            "label": "isIgnoreArea",
+            "options": [
+                { "label": "False", "value": "false" },
+                { "label": "True", "value": "true" }
+            ]
+            }
+        ]
+        },
+        {
+        "label": "Barrier Marking",
+        "options": [
+            {
+            "label": "Color",
+            "options": [
+                { "label": "Red", "value": "red" },
+                { "label": "White", "value": "white" },
+                { "label": "Blue", "value": "blue" },
+                { "label": "Yellow", "value": "yellow" }
+            ]
+            },
+            {
+            "label": "isIgnoreArea",
+            "options": [
+                { "label": "False", "value": "2a" },
+                { "label": "True", "value": "2b" }
+            ]
+            }
+        ]
+        }
+    ]
+}
