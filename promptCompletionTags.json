@@ -1,0 +1,76 @@
+{
+  "promptTags": [
+    {
+      "label": "Harmless",
+      "options": []
+    },
+    {
+      "label": "Harmful",
+      "options": [
+        {
+          "options": [
+            "Race, Color, Ethnicity",
+            "Caste, Social Status",
+            "Age",
+            "Religion or Philosophical Beliefs",
+            "Pregnancy Status",
+            "Disability Status",
+            "Familial Status",
+            "Political Beliefs",
+            "Genetic Info, Health, Appearance"
+          ],
+          "label": "Hateful"
+        },
+        {
+          "options": [],
+          "label": "Violent or Harmful"
+        },
+        {
+          "options": ["Sexually Explicit", "Sexually Suggestive (Minors)"],
+          "label": "Sexually Inappropriate"
+        },
+        {
+          "options": ["Sensitive Personal Info (SPI)", "Non-SPI"],
+          "label": "Illegal"
+        }
+      ]
+    }
+  ],
+  "completionTags": [
+    {
+      "label": "Harmless",
+      "options": []
+    },
+    {
+      "label": "Harmful",
+      "options": [
+        {
+          "options": [
+            "Race, Color, Ethnicity",
+            "Caste, Social Status",
+            "Age",
+            "Religion or Philosophical Beliefs",
+            "Pregnancy Status",
+            "Disability Status",
+            "Familial Status",
+            "Political Beliefs",
+            "Genetic Info, Health, Appearance"
+          ],
+          "label": "Hateful"
+        },
+        {
+          "options": [],
+          "label": "Violent or Harmful"
+        },
+        {
+          "options": ["Sexually Explicit", "Sexually Suggestive (Minors)"],
+          "label": "Sexually Inappropriate"
+        },
+        {
+          "options": ["Sensitive Personal Info (SPI)", "Non-SPI"],
+          "label": "Illegal"
+        }
+      ]
+    }
+  ]
+}

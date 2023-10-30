@@ -1,19 +1,16 @@
 {
-    "imageTag" : [
+    "imageTags" : [
         {
         "label": "Atmospheric Condition",
-        "options": [
-            { "label": "clear", "value": "clear" },
-            { "label": "fog", "value": "fog" },
-            { "label": "dust", "value": "dust" }
-        ]
+        "options": ["Clear","Fog","Smoke","Dust","NotSet"]
         },
         {
         "label": "Dynamic Traffic Situation",
-        "options": [
-            { "label": "HeavyTraffic", "value": "HeavyTraffic" },
-            { "label": "trafficJam", "value": "trafficJam" }
-        ]
+        "options": ["HeavyTraffic","trafficJam","ParkedCars","NotSet"]
+        },
+        {
+        "label": "Light Condition",
+        "options": ["Glare","Artificial","LightRays","NotSet"]
         }
     ]
 }

@@ -1,37 +1,32 @@
 {
-    "classTags": [
+  "classTags": {
+    "CrossWalkEdge": {
+      "regionTags": [
         {
-        "label": "Arrow",
-        "options": [
-            {
-            "label": "isIgnoreArea",
-            "options": [
-                { "label": "False", "value": "false" },
-                { "label": "True", "value": "true" }
-            ]
-            }
-        ]
+          "label": "isIgnoreArea",
+          "options": ["False", "True"]
         },
         {
-        "label": "Barrier Marking",
-        "options": [
-            {
-            "label": "Color",
-            "options": [
-                { "label": "Red", "value": "red" },
-                { "label": "White", "value": "white" },
-                { "label": "Blue", "value": "blue" },
-                { "label": "Yellow", "value": "yellow" }
-            ]
-            },
-            {
-            "label": "isIgnoreArea",
-            "options": [
-                { "label": "False", "value": "2a" },
-                { "label": "True", "value": "2b" }
-            ]
-            }
-        ]
+          "label": "color",
+          "options": ["White", "Yellow", "OrangeYellow", "Unsure"]
         }
-    ]
+      ],
+      "pointTags": {
+        "label": "lineGeometricType",
+        "options": ["OcclusionStart", "OcclusionEnd", "CourseOfTheLine"]
+      }
+    },
+    "Barrier Marking": {
+      "regionTags": [
+        {
+          "label": "isIgnoreArea",
+          "options": ["False", "True"]
+        },
+        {
+          "label": "color",
+          "options": ["White", "Yellow", "OrangeYellow", "Unsure"]
+        }
+      ]
+    }
+  }
 }
